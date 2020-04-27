@@ -61,9 +61,15 @@ public class valueOfMethods {
         "123456"  ==>
          */
 
+        String r1 = "TrUE";
+        Boolean t1 = Boolean.valueOf(r1); // Boolean, true
+        // Boolean = Boolean  // none
 
+        boolean t2 = Boolean.valueOf(r1); // Boolean, true
+        // boolean = Boolean  // unboxing
 
-
+        System.out.println(t1);
+        System.out.println(t2);
 
         System.out.println("==================================");
 
