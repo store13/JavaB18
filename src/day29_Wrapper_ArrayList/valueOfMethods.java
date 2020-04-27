@@ -27,7 +27,7 @@ public class valueOfMethods {
 
         System.out.println(d1 == d2);
 
-        System.out.println("===================================================");
+        System.out.println("==========================================");
 
         int z1 = 2000;
         // Long L1 = z1;   // does not accept any other primitives except for long
