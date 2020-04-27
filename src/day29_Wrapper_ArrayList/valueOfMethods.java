@@ -1,6 +1,25 @@
 package day29_Wrapper_ArrayList;
 
+import java.util.Arrays;
+
 public class valueOfMethods {
+    /*
+        valueOf method : converting string to wrapper class value, returns wrapper class values
+        valueOf method of Boolean : any string other than "true" will ALWAYS return false, NOT case Sensitive
+
+        MIN_VALUE : returns the minimum
+        MAX_VALUE : return the maximum
+
+        Wrapper class vs Primitives:
+                default values:
+                        All of wrapper class' default values are NULL
+
+                 default values of primitives:
+                        byte, short, int, long : 0
+                        boolean : false
+                        double, float : 0.0
+                        char : empty space
+     */
 
     public static void main(String[] args) {
 
@@ -34,6 +53,49 @@ public class valueOfMethods {
 
         Short sh1 = 3000;
         int z2 = sh1;
+
+        /*
+        "True"
+        "FalSe" ==> to boolean
+        "100000000.5" ==> to float
+        "123456"  ==>
+         */
+
+
+
+
+
+        System.out.println("==================================");
+
+        int maxNum = Integer.MAX_VALUE;
+        System.out.println(maxNum);
+
+        double maxNum2 = Double.MAX_VALUE;
+        System.out.println(maxNum2);
+
+        int minNum = Integer.MIN_VALUE;
+        System.out.println(minNum);
+
+        byte maxNum3 = Byte.MAX_VALUE;
+        System.out.println(maxNum3);
+
+        byte minNum2 = Byte.MIN_VALUE;
+        System.out.println(minNum2);
+
+        System.out.println("====================================");
+
+        double [] arr = new double [3];
+        System.out.println(Arrays.toString(arr)); // [0.0, 0.0, 0.0] - default
+
+
+        boolean [] arr1 = new boolean[3];
+        System.out.println(Arrays.toString(arr1)); // [false, false, false] - default
+
+        Integer [] arr3 = new Integer[3];
+        System.out.println(Arrays.toString(arr3)); // [null, null, null]
+
+
+
 
 
     }

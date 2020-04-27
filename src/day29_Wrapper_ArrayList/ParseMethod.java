@@ -8,8 +8,10 @@ public class ParseMethod {
         parse method : converts String of text to the primitives. NOT Case sensitive !! care about MEANING
                     "123"
 
-                    parse method of boolean: any string other than "true" will return false
-        valueOf method :
+                    parse method of Boolean: any string other than "true" will ALWAYS return false, NOT case Sensitive
+
+
+
      */
 
     public static void main(String[] args) {
