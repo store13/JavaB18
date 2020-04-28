@@ -15,7 +15,7 @@ public class List_Intro {
      methods:
                 add(): adds Objects to the arrayList
                 get(index): gets the object at the given index, returns the Object as it is.
-                size() :
+                size() : returns the length (size) of the arrayList as an int
 
 
      */
