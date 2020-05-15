@@ -45,17 +45,12 @@ public class StringMethods {
         System.out.println(result);
 
 
-
         String str2 = "ABCD";
         String arr2[] = str2.split("")  ;    //["A", "B", "C", "D"]
         char[] ch2 = str2.toCharArray();            //['A', 'B', 'C', 'D']
 
         System.out.println( Arrays.toString(arr2) );
         System.out.println( Arrays.toString(ch2));
-
-
-
-
 
 
     }

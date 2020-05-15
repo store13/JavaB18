@@ -23,9 +23,6 @@ public class Arrays_Intro {
         int num2 = scores[5];     // 100, int
         System.out.println(num2);
 
-
-
-
     }
 }
 

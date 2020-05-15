@@ -7,6 +7,7 @@ public class StringManipulations {
         String str= "Cybertek";
         //           01234567
 
+        //System.out.println(str.charAt(str.length()-1) == 'k');
         char ch1 = str.charAt(5);   // t
         System.out.println(ch1 == 'A'); // false
             //             't' == 'A' ==> false

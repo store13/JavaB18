@@ -45,9 +45,5 @@ public class ArrayList_Methods2 {
         int num3 = list2.indexOf(3);  //3
         System.out.println(num3);
 
-
-
-
-
     }
 }

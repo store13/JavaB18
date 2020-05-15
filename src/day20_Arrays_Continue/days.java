@@ -23,7 +23,6 @@ public class days {
                 System.exit(0);
             }
 
-
         }
 
         String result =  days[num-1];

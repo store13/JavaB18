@@ -66,6 +66,7 @@ public class ArrayList_Methods {
 
         //list4.remove(1);
 
+
         Integer a2 = 100;
         //list4.remove(a2);
 
@@ -73,12 +74,6 @@ public class ArrayList_Methods {
 
         System.out.println(list4);
         System.out.println(r1);
-
-
-
-
-
-
 
 
     }
